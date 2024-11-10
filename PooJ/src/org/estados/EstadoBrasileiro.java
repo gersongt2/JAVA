@@ -33,8 +33,8 @@ public enum EstadoBrasileiro {
 		return sigla;
 	}
 	
-	public String getNomeMaiusculo() {
-		return nome.toUpperCase();
+	public String getNomeMinusculo() {
+		return nome.toLowerCase();
 	}
 
 	

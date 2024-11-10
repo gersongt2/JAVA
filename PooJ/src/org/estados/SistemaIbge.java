@@ -6,7 +6,7 @@ public class SistemaIbge {
 		
 		for(EstadoBrasileiro e: EstadoBrasileiro.values()) {
 			
-			System.out.println(e.getNome() + " - " + e.getSigla() + " N-" + e.getIbge() );
+			System.out.println(e.getNomeMinusculo() + " - " + e.getSigla() + " N-" + e.getIbge() );
 		}
 
 	}
